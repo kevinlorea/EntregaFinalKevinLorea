@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cine America - El Cine Clasico De Santa Fe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="../assets/—Pngtree—film projector_4426282.png" type="image/x-icon">
+</head>
+<body>
+    <!-- starts nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="../index.html">
+                <img class="logo" src="../assets/—Pngtree—film projector_4426282.png" alt="logo de cine america" >
+            </a>
+            <a class="navbar-brand" href="../index.html">Cine America</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                         <a class="nav-link" aria-current="page" href="./cartelera.html">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./entradas.html">Entradas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cineclub.html">Cine Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mi Cuenta
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./perfil.html">Ir a mi perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- compra tu entrada -->
+        <h1>Compra tu entrada</h1>
+        <!-- grid -->
+        <section class="grid-entradas grid-entradas-row-column">
+            <!-- start dias-->
+            <div class="dias-pelicula jc" id="dias">
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Hoy
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Mañana
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Sabado
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Domingo
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Lunes
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Martes
+                    </a>
+                </button>
+                <button class="btn-dias">
+                    <a class="a-dias" href="#">
+                        Miercoles
+                    </a>
+                </button>
+            </div>
+            <!-- ends dias -->
+            <!-- start nombre pelicula -->
+            <div class="nombre-peli jc" id="nomb-peli">
+                <div class="nom-peli">Nombre Pelicula</div>
+            </div>
+            <!-- ends nombre pelicula -->
+            <!-- start info pelicula -->
+            <div class="pelicula-info jc" id="peli-info">
+                <div class="peli-infor">+16. Drama.<br>Director: Juan Coder. Origen: Coderlandia</div>
+            </div>
+            <!-- ends info pelicula -->
+            <!-- start compra de entradas-->
+            <div class="compra-entradas" id="compra">
+                <div class="btn-group btn-large">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Elegí tu película
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pelicula1</a></li>
+                      <li><a class="dropdown-item" href="#">Pelicula2</a></li>
+                      <li><a class="dropdown-item" href="#">Pelicula3</a></li>
+                      <li><a class="dropdown-item" href="#">Pelicula4</a></li>
+                      <li><a class="dropdown-item" href="#">Pelicula5</a></li>
+                      <li><a class="dropdown-item" href="#">Pelicula6</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <div class="btn-group btn-large">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Elegí el horario
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Horario1</a></li>
+                      <li><a class="dropdown-item" href="#">Horario2</a></li>
+                      <li><a class="dropdown-item" href="#">Horario3</a></li>
+                      <li><a class="dropdown-item" href="#">Horario4</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <div class="btn-group btn-large">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cantidad de entradas
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                      <li><a class="dropdown-item" href="#">4</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <div class="btn-group btn-large">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Selección de sector
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">a</a></li>
+                      <li><a class="dropdown-item" href="#">b</a></li>
+                      <li><a class="dropdown-item" href="#">c</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <div class="total jc">
+                    <div class="calculo jc">
+                      Total: $XXX
+                    </div>
+                </div>
+                <div class="comprar-area jc">
+                    <button class="comprar-btn jc">Comprar</button>
+                </div>
+            </div>
+            <!-- ends compra de entradas -->
+            <!-- start imagen pelicula -->
+            <div class="peli-imagen jc" id="peli-img">
+                <img class="portada-comrpa" src="../assets/portadaDePeliculas.png">
+            </div>
+            <!-- ends imagen pelicula -->
+            <!-- start descripcion pelicula -->
+            <div class="peli-desc" id="peli-des">
+                <div class="jc">
+                    <p class="p-des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, magnam atque aperiam velit ea eos voluptatum, modi iure porro temporibus excepturi quidem cupiditate illo culpa dolore blanditiis voluptatibus, quasi praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, magnam atque aperiam velit ea eos voluptatum, modi iure porro temporibus excepturi quidem cupiditate illo culpa dolore blanditiis voluptatibus, quasi praesentium.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, magnam atque aperiam velit ea eos voluptatum, modi iure porro temporibus excepturi quidem cupiditate illo culpa dolore blanditiis voluptatibus, quasi praesentium.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, magnam atque aperiam velit ea eos voluptatum, modi iure porro temporibus excepturi quidem cupiditate illo culpa dolore blanditiis voluptatibus, quasi praesentium.
+                    </p>
+                </div>
+            </div>
+            <!-- ends descripcion pelicula -->
+            <!-- start trailer youtube -->
+            <div class="trailer-div jc" id="trailer">
+                <div class="trailer1">
+                    <video src="../assets/KV - AFA La Scaloneta - Trailer VERSION EXTENDIDA - Lionel Messi.mp4" autoplay class="video-trailer"></video>
+                </div>
+                <div class="trailer2">
+                    <video src="../assets/KV - AFA La Scaloneta - Trailer VERSION EXTENDIDA - Lionel Messi.mp4" autoplay class="video-trailer"></video>
+                </div>
+            </div>
+            <!-- ends trailer youtube-->
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://goo.gl/maps/sZUUoNJpwzhH5Mb17?coh=178573&entry=tt" target="_blank"><i class="fas fa-map-marker-alt"></i></a>  
+        </div>
+        <p class="p-footer">25 de Mayo 3055, Santa Fe, Argentina.</p>
+    </footer>
+</body>
+</html>
