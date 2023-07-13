@@ -3,9 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cine America - El Cine Clasico De Santa Fe</title>
+    <title>Elegi la pelicula que quieras en Cine America</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="shortcut icon" href="../assets/—Pngtree—film projector_4426282.png" type="image/x-icon">
@@ -17,7 +16,10 @@
             <a href="../index.html">
                 <img class="logo" src="../assets/—Pngtree—film projector_4426282.png" alt="logo de cine america" >
             </a>
-            <a class="navbar-brand" href="../index.html">Cine America</a>
+            <div class="inicio">
+              <a class="navbar-brand" href="../index.html">Cine América</a>
+              <p class="home">inicio</p>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,99 +50,111 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="container-fluid">
         <!-- cartelera -->
         <h1>En Cartelera</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4 colcenter">
+        <div class="row row-cols-1 row-cols-md-3 g-4 colcenter px-5 py-4">
             <!-- pelicula1 -->
             <div class="col">
               <div class="card h-100 colgrid">
-                <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                <a href="../pages/entradas.html">
+                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula1">
+                </a>
                 <div class="card-body">
-                  <h2 class="card-title">Nombre Pelicula1</h2>
+                  <h2 class="card-title">Hasta el punto</h2>
                   <h3 class="card-subtitle">Estreno</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                  <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                  <button class="comprar-entrada">
-                    <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                  </button>
+                  <p class="card-text">Esta película, del director Jason Burrh, protagonizada por Cristian Ibagaza y Florence Mach nos hace recorrer las vigas de relaciones truncadas por el azar en el oriente europeo de la década de 1980. Fotografía y diálogos destacados y unas actuaciones que son dignas de premiación. La película nos plantea una pregunta: ¿cuántas veces somos nosotros los que decidimos?</p>
+                  <h4 class="card-subtitle info-pelicula">+16. Drama. <br>119 min.<br>Director: Jason Burrh. <br>Origen: Bélgica / Paises Bajos.</h4>
+                  <a class="btn-compra" href="../pages/entradas.html">
+                    <button class="btn">Comprar entrada</button>
+                  </a>   
                 </div>
               </div>
             </div>
             <!-- pelicula2 -->
             <div class="col">
                 <div class="card h-100 colgrid">
-                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                  <a href="../pages/entradas.html">
+                    <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula2">
+                  </a>
                   <div class="card-body">
-                    <h2 class="card-title">Nombre Pelicula2</h2>
+                    <h2 class="card-title">Cruce de datos</h2>
                     <h3 class="card-subtitle">Estreno</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                    <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                    <button class="comprar-entrada">
-                      <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                    </button>
+                    <p class="card-text">Protagonizada por el reconocido Jerry Peterson, ganador de 2 premios Oscar.Es una de esas películas que, si te gusta el género, no podés dejar de ver. Ambientada en el sur de Estados Unidos, dos amigos de la universidad deciden, en un garage de mala muerte, conectar unas computadoras y hacer un hackeo de cuentas que, más temprano que tarde, trae consecuencias mayúsculas.</p>
+                    <h4 class="card-subtitle info-pelicula">+16. Acción. <br>104 min.<br>Director: John Jackson. <br>Origen: USA.</h4>
+                    <a class="btn-compra" href="../pages/entradas.html">
+                      <button class="btn">Comprar entrada</button>
+                    </a>   
                   </div>
                 </div>
             </div>
             <!-- pelicula3 -->
             <div class="col">
                 <div class="card h-100 colgrid">
-                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                  <a href="../pages/entradas.html">
+                    <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula3">
+                  </a>
                   <div class="card-body">
-                    <h2 class="card-title">Nombre Pelicula3</h2>
+                    <h2 class="card-title">El cocodrilo</h2>
                     <h3 class="card-subtitle">Estreno</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                    <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                    <button class="comprar-entrada">
-                      <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                    </button>
+                    <p class="card-text">Con un elenco de primer nivel y unos diálogos de otro planeta, esta comedia negra nos entrega muchos momentos de risas interminables. David Sunderland (Arthur Smallface) apuesta todo lo que tardó 40 años en ahorrar, convencido de poder encontrar un cocodrilo en el casi seco Río Reven, en un pequeño pueblo al oeste de Irlanda.</p>
+                    <h4 class="card-subtitle info-pelicula">+13. Comedia. <br>144 min.<br>Director: Phillips J. Varen. <br>Origen: Irlanda.</h4>
+                    <a class="btn-compra" href="../pages/entradas.html">
+                      <button class="btn">Comprar entrada</button>
+                    </a>   
                   </div>
                 </div>
             </div>          
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 colcenter">
+        <div class="row row-cols-1 row-cols-md-3 g-4 colcenter px-5 py-4">
             <!-- pelicula4 -->
             <div class="col">
               <div class="card h-100 colgrid">
-                <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                <a href="../pages/entradas.html">
+                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula4">
+                </a>
                 <div class="card-body">
-                  <h2 class="card-title">Nombre Pelicula4</h2>
+                  <h2 class="card-title">El orín del Diablo (2021)</h2>
                   <h3 class="card-subtitle">Ciclo Terror</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                  <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                  <button class="comprar-entrada">
-                    <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                  </button>
+                  <p class="card-text"> Ambientada en fines del siglo XIX, esta película de la reconocida Mia Pavlova y protagonizada por Steven Gerard y Pam Beasly cuenta la historia de la primera aparición de un ente que luego termina transformándose en una leyenda. Con momentos de alta tensión y buenos diálogos, sumada a una fotografía de alto nivel. Si te gusta el género, te esperamos, tenés que verla.</p>
+                  <h4 class="card-subtitle info-pelicula">+16. Terror. <br>92 min.<br>Director: Mia Pavlova. <br>Origen: Gran Bretaña</h4>
+                  <a class="btn-compra" href="../pages/entradas.html">
+                    <button class="btn">Comprar entrada</button>
+                  </a>   
                 </div>
               </div>
             </div>
             <!-- pelicula5 -->
             <div class="col">
                 <div class="card h-100 colgrid">
-                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                  <a href="../pages/entradas.html">
+                    <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula5">
+                  </a>
                   <div class="card-body">
-                    <h2 class="card-title">Nombre Pelicula5</h2>
+                    <h2 class="card-title">El viento trae una cosa (1998)</h2>
                     <h3 class="card-subtitle">Cine Club Temporada 71</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                    <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                    <button class="comprar-entrada">
-                      <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                    </button>
+                    <p class="card-text">La primera de una saga exitosísima que terminó inspirando canciones y mitos populares. Una obra de arte de nuesta tierra que tenés que ver o volver a ver. Una dirección premiada y un elenco que lleva a la perfección esta película de historias mundanas pero irrepetibles, donde lo común es lo raro. Parte del Ciclo CCT71, disponible solo esta semana.</p>
+                    <h4 class="card-subtitle info-pelicula">ATP. Drama. <br>102 min.<br>Director: Juan Trip. <br>Origen: Argentina</h4>
+                    <a class="btn-compra" href="../pages/entradas.html">
+                      <button class="btn">Comprar entrada</button>
+                    </a>     
                   </div>
                 </div>
               </div>
             <!-- pelicula6 -->
             <div class="col">
                 <div class="card h-100 colgrid">
-                  <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="...">
+                  <a href="../pages/entradas.html">
+                    <img src="../assets/publicidad.jpg" class="card-img-top img-cartelera" alt="portada pelicula6">
+                  </a>
                   <div class="card-body">
-                    <h2 class="card-title">Nombre Pelicula6</h2>
+                    <h2 class="card-title">La muerte del ocelote (2019)</h2>
                     <h3 class="card-subtitle">Ciclo Desvelado</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni. Velit natus in placeat, cum rerum facere esse quis suscipit!LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam fuga fugit nam odio rerum id cumque officiis quaerat magni.</p>
-                    <h4 class="card-subtitle info-pelicula">+16. Drama. <br>Director: Juan Coder. <br>Origen: Coderlandia</h4>
-                    <button class="comprar-entrada">
-                      <a class="btn-compra" href="../pages/entradas.html">Comprar entrada</a>
-                    </button>
+                    <p class="card-text">Esta coproducción española/argentina, filmada en el norte de nuestro país, carga la sala de un suspenso palpable. Es la historia de una familia con buen pasado y triste presente, quienes con pocas herramientas deciden dar frente a una pelea desigual. Pasajes fantásticos que hicieron que esta película sea merecidamente nominada a los premios Goyeneche.</p>
+                    <h4 class="card-subtitle info-pelicula">+16. Suspenso. <br>144 min.<br>Director: María Sanchez. <br>Origen: España / Argentina</h4>
+                    <a class="btn-compra" href="../pages/entradas.html">
+                      <button class="btn">Comprar entrada</button>
+                    </a>   
                   </div>
                 </div>
             </div>          
@@ -155,5 +169,6 @@
         </div>
         <p class="p-footer">25 de Mayo 3055, Santa Fe, Argentina.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
