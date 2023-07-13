@@ -1,0 +1,841 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700&family=Inter:wght@100;300;400;500;800&family=Quattrocento+Sans:wght@400;700&family=Quicksand:wght@300;400;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;1,400;1,500&family=Roboto:ital@1&family=Thasadith&display=swap");
+:root {
+  --back-colour1: rgb(40, 40, 40);
+  --back-colour2: rgb(29, 30, 45);
+  --back-colour3: rgb(0, 0, 0);
+  --back-colour4: rgb(95, 95, 123);
+  --back-colour9: rgb(212, 87, 87);
+  --back-colour7: rgb(78, 102, 198);
+  --back-colour8: rgb(116, 215, 103);
+}
+
+.btn {
+  background-color: rgba(152, 151, 215, 0.3176470588);
+  border: solid 1px rgb(16, 15, 15);
+  color: #050505;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.btn.btn:hover {
+  background-color: rgba(47, 64, 217, 0.326);
+}
+
+.puntos, .puntos-cambio, .puntos-canje {
+  width: 400px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  background: linear-gradient(var(--back-colour8), var(--back-colour1), var(--back-colour8));
+  color: #dcd5d0;
+  font-weight: 700;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.puntos:hover, .puntos-cambio:hover, .puntos-canje:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.puntos-canje {
+  background: linear-gradient(var(--back-colour4), var(--back-colour1), var(--back-colour4));
+}
+
+.puntos-cambio {
+  background: linear-gradient(var(--back-colour7), var(--back-colour1), var(--back-colour7));
+}
+
+* {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 200;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+
+.collapse li {
+  padding-right: 10px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #466183;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.6em;
+  padding-top: 1em;
+}
+
+.home {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: #466183;
+  letter-spacing: 0.4em;
+}
+
+h1 {
+  font-size: 2.4em;
+  background: linear-gradient(var(--back-colour1), var(--back-colour2), var(--back-colour3));
+  color: #dcd5d0;
+  font-weight: 700;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 0 0 5px 5px;
+  text-transform: uppercase;
+}
+
+.segundos-titulos {
+  background: linear-gradient(var(--back-colour1), var(--back-colour2), var(--back-colour3));
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  padding-top: 10px;
+  height: 50px;
+  border-radius: 0 0 5px 5px;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: rgba(152, 151, 215, 0.3176470588);
+  border: solid 1px rgb(16, 15, 15);
+  color: #050505;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.btn.btn:hover {
+  background-color: rgba(47, 64, 217, 0.326);
+}
+
+footer a {
+  color: #dcd5d0;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  background-color: #050505;
+}
+
+footer p {
+  font-size: 0.8em;
+  color: #dcd5d0;
+  padding-top: 20px;
+}
+
+.carousel-item img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.espacio {
+  padding-top: 2px;
+}
+
+.estrenos {
+  background-color: rgba(236, 239, 243, 0.607);
+}
+
+.card {
+  border: 1px solid rgba(18, 19, 28, 0.9019607843);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.4em;
+  background-color: rgba(18, 19, 28, 0.9019607843);
+  border-radius: 2px;
+  color: #dcd4ce;
+  text-transform: uppercase;
+}
+
+.card-subtitle {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1em;
+  background-color: rgb(222, 218, 218);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  width: 99%;
+}
+
+#titulo-proximamente {
+  grid-area: proxi;
+}
+
+#titulo-noticias {
+  grid-area: noti;
+}
+
+#proximas-peliculas {
+  grid-area: pelis;
+}
+
+#noticias {
+  grid-area: noticias;
+}
+
+#noticias-cine {
+  grid-area: noti-cine;
+}
+
+.grid-template-column-row {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 300px 300px 350px;
+  grid-template-areas: "proxi noti" "pelis noticias" "pelis noticias" "pelis noti-cine";
+  gap: 0 10px;
+}
+
+.container-pelis {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(239, 239, 239, 0.6392156863);
+}
+
+.fig-peli {
+  text-align: center;
+  background-color: rgba(24, 26, 37, 0.897);
+  font-weight: 400;
+  border-radius: 0 0 5px 5px;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.portada-peli {
+  height: 350px;
+  width: 250px;
+}
+
+
+.noticias,
+.noticias-camerica {
+  border-left: solid rgb(16, 15, 15) 1px;
+}
+
+.container-noticias {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #dcd5d0;
+}
+
+.div-noticia-nacional {
+  display: flex;
+  flex-direction: column;
+}
+
+.f1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(16, 15, 15);
+  margin-top: 15px;
+}
+
+.f2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #050505;
+  padding-bottom: 10px;
+}
+
+.publ-cine {
+  width: 680px;
+  height: 280px;
+  object-fit: fill;
+  border-radius: 0 0 5px 5px;
+}
+
+.div-p-nacional {
+  padding: 20px 10px;
+}
+
+.div-p-internacional {
+  padding: 20px 20px;
+}
+
+.div-cine-nacional {
+  padding: 10px 10px;
+}
+
+.p-titulo {
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.p-info {
+  border-top: solid 1px #dcd4ce;
+  padding: 10px 0;
+  border-bottom: solid 1px #dcd4ce;
+}
+
+.a-titulo {
+  text-decoration: none;
+  color: #050505;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.a-titulo.a-titulo:hover {
+  color: rgba(47, 64, 217, 0.326);
+}
+
+.a-cine {
+  text-decoration: none;
+  color: #050505;
+}
+
+.fig-noticia {
+  text-align: center;
+  background-color: #dcd4ce;
+  font-weight: 700;
+  border-radius: 0 0 0 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.fig-noticia.fig-noticia:hover {
+  background-color: #dcd4ce;
+}
+
+.img-noticias-large {
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover;
+}
+
+.info-text {
+  line-height: 1.2em;
+}
+
+.noticias-camerica {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(236, 239, 243, 0.607);
+}
+
+.img-cartelera {
+  height: 480px;
+  width: 350px;
+  align-content: center;
+}
+
+.colgrid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dcd4ce;
+}
+
+.colcenter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-pelicula {
+  background-color: #dcd5d0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.grid-entradas-row-column {
+  grid-template-columns: 29% 20% 2% 20% 29%;
+  grid-template-rows: 40px 25px 350px 400px;
+  grid-template-areas: "dia dia none npeli pinfo" "comp comp none tipo pinfo" "comp comp none pelimg pdes" "com com none trai trai";
+  gap: 1px;
+}
+
+.section-grid {
+  padding: 30px 0;
+}
+
+.grid-entradas {
+  display: grid;
+  width: 95%;
+  margin: auto;
+}
+
+#publicidad-entradas {
+  grid-area: com;
+}
+
+#tipo-peli {
+  grid-area: tipo;
+  background-color: rgb(222, 218, 218);
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+#dias {
+  grid-area: dia;
+  background-color: #466183;
+}
+
+#nomb-peli {
+  grid-area: npeli;
+  background-color: rgba(18, 19, 28, 0.9019607843);
+}
+
+#peli-info {
+  grid-area: pinfo;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-bottom: solid 1px rgba(255, 68, 0, 0.18);
+  border-right: solid #050505 3px;
+}
+
+#compra {
+  grid-area: comp;
+  border: solid 1px rgba(64, 65, 68, 0.479);
+  border-radius: 2px;
+  background-color: rgba(236, 242, 247, 0.495);
+  border-radius: 3px;
+}
+
+#peli-img {
+  grid-area: pelimg;
+  background-color: #dcd5d0;
+}
+
+#peli-des {
+  grid-area: pdes;
+  background-color: rgb(254, 254, 255);
+  border-right: solid #050505 3px;
+}
+
+#trailer {
+  grid-area: trai;
+  background-color: rgb(254, 254, 255);
+}
+
+.jc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ac {
+  align-content: space-between;
+}
+
+.ai {
+  align-items: center;
+}
+
+.btn-dias {
+  background-color: rgb(254, 254, 255);
+  border-radius: 2px;
+  border: solid 1px #050505;
+  width: 70px;
+}
+.btn-dias.btn-dias:hover {
+  background-color: rgba(47, 64, 217, 0.326);
+}
+
+.a-dias {
+  text-decoration: none;
+  color: #050505;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+.a-dias.a-dias:hover {
+  color: #dcd5d0;
+}
+
+.nombre-peli {
+  background-color: #466183;
+  border-radius: 5px;
+}
+
+.nom-peli {
+  color: #dcd5d0;
+  font-weight: 400;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.peli-infor {
+  font-weight: 700;
+  font-size: 1.4em;
+  border: solid 1px #050505;
+  padding: 1px 5px;
+  background-color: rgb(255, 186, 58);
+}
+
+.pelis-det {
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.span-p {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.portada-compra {
+  height: 350px;
+  width: 280px;
+  border-radius: 0px 0px 0px 3px;
+}
+
+.p-des {
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+.video-trailer {
+  height: 500px;
+  width: 680px;
+}
+
+.btn-large {
+  width: 700px;
+}
+
+.compra-entradas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.calculo {
+  background-color: rgb(254, 254, 255);
+  height: 40px;
+  width: 120px;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.comprar-btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.junio {
+  width: 300px;
+  height: 400px;
+}
+
+.parte-cc {
+  display: flex;
+}
+
+.wc {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.perfil-usuario {
+  font-weight: 700;
+  background-color: rgba(236, 242, 247, 0.495);
+  color: #050505;
+  text-align: center;
+}
+
+.img-div {
+  padding-right: 100px;
+}
+
+.contacto-cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.p-cont {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #466183;
+  width: 100%;
+  text-align: center;
+  color: #dcd5d0;
+}
+
+.sc {
+  background-color: rgba(28, 119, 28, 0.53);
+  color: rgb(254, 254, 255);
+}
+
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 700px;
+  border: solid 1px rgba(18, 19, 28, 0.9019607843);
+}
+
+.ciclos-h {
+  font-size: 1.4em;
+  background: linear-gradient(var(--back-colour2), var(--back-colour1), var(--back-colour2));
+  color: #dcd5d0;
+  font-weight: 700;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 0 0 5px 5px;
+  text-transform: uppercase;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.publicidades {
+  background-color: rgba(48, 86, 255, 0.813);
+  height: 800px;
+}
+
+.ciclos {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.perfil-cineclub {
+  padding-left: 40px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.parte-cc {
+  background-color: rgba(236, 242, 247, 0.495);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: start;
+  align-content: space-between;
+  padding-top: 30px;
+}
+
+.publi {
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.ingreso {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 700px;
+  background-color: rgba(236, 242, 247, 0.495);
+}
+
+.crear-cuenta {
+  background-color: rgb(222, 218, 218);
+  height: 350px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 1px #050505;
+}
+
+.ingreso-usuario {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 5px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.for1 {
+  height: 40px;
+  width: 300px;
+  margin: 4px auto;
+}
+
+.for2 {
+  height: 40px;
+  width: 300px;
+  color: #dcd5d0;
+  background-color: #466183;
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+.for2.for2:hover {
+  background-color: rgba(47, 64, 217, 0.326);
+}
+
+.a-cuenta {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #466183;
+}
+.a-cuenta.a-cuenta:hover {
+  color: #050505;
+}
+
+.a-ingreso {
+  text-decoration: none;
+}
+
+.iu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cuenta-usuario {
+  border-radius: 3px;
+}
+
+.p-ingreso {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: #466183;
+}
+
+.p-cuenta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #466183;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.publi-perfil {
+  flex-basis: 45%;
+  padding-bottom: 5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-perfil {
+  height: 600px;
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .grid-template-column-row {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px repeat(4, 300px) 50px repeat(2, 200px) repeat(2, 200px);
+    grid-template-areas: "proxi" "pelis" "pelis" "pelis" "pelis" "noti" "noticias" "noticias" "noticias" "noticias" "noti-cine" "noti-cine";
+  }
+}
+@media (max-width: 600px) {
+  .grid-entradas-row-column {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 300px 50px 30px 300px 300px;
+    grid-template-areas: "dia" "comp" "npeli" "pinfo" "pdes" "trai";
+  }
+}
+.img-noticias {
+  width: 250px;
+  height: 160px;
+  padding-top: 5px;
+}
+
+.portada-peli {
+  height: 250px;
+  width: 200px;
+}
+
+.img-noticias-cine {
+  width: 250px;
+  height: 300px;
+}
+
+.segundos-titulos {
+  font-size: 1.4em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .grid-template-column-row {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px repeat(4, 400px) 50px repeat(2, 270px) repeat(2, 200px);
+    grid-template-areas: "proxi" "pelis" "pelis" "pelis" "pelis" "noti" "noticias" "noticias" "noticias" "noticias" "noti-cine" "noti-cine";
+  }
+  .img-noticias {
+    width: 350px;
+    height: 200px;
+    padding-top: 5px;
+  }
+  .portada-peli {
+    height: 350px;
+    width: 300px;
+  }
+  .img-noticias-cine {
+    width: 300px;
+    height: 350px;
+  }
+  .segundos-titulos {
+    font-size: 1.4em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

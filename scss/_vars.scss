@@ -1,0 +1,57 @@
+//variables globales
+
+//colores
+$firstBlue: #466183;
+$whiteColor: #dcd5d0;
+$realWhite: rgb(254, 254, 255);
+$blackColor: #050505;
+$bGroundGrey: rgba(236, 239, 243, 0.607);
+$bGGrey: rgba(64, 65, 68, 0.479);
+$darkBlue: #12131ce6;
+$lightGrey: rgb(222, 218, 218);
+$lightLightBlue: rgba(236, 242, 247, 0.495);
+$greyColorF: #dcd4ce;
+$blueHoverBtn: rgba(47, 64, 217, 0.326);
+$bGBot: #9897d751;
+$borderBot: rgb(16, 15, 15);
+$darkOrange: rgba(255, 68, 0, 0.18);
+$darkYellow: rgb(255, 186, 58);
+$greenColor: rgba(28, 119, 28, 0.53);
+$lightBlue: rgba(48, 86, 255, 0.813);
+
+//fonts
+$mainFont: 'Quattrocento Sans', sans-serif;
+
+//sizing
+$textSSm: 0.6em;
+$textSm: 0.8em;
+$textMd: 1em;
+$textMed: 1.2em;
+$textLg: 1.4em;
+$textLGg: 1.6em;
+$textXlg: 2em;
+$textXXlg: 2.4em;
+
+//weight
+$textBold: 700;
+$textMBold: 600;
+$textSemiBold: 400;
+$textNormal: 200;
+
+//line-height
+$lineHeightS: 0.6em;
+$lineHeightM: 1em;
+$lineHeightL: 1.2em;
+
+
+//colores encabezados
+
+:root{
+    --back-colour1: rgb(40, 40, 40);
+    --back-colour2: rgb(29, 30, 45);
+    --back-colour3: rgb(0, 0, 0);
+    --back-colour4: rgb(95, 95, 123);
+    --back-colour9: rgb(212, 87, 87);
+    --back-colour7: rgb(78, 102, 198);
+    --back-colour8: rgb(116, 215, 103);
+}

@@ -1,0 +1,62 @@
+//extends
+.btn {
+    background-color: $bGBot;
+    border: solid 1px $borderBot;
+    color: $blackColor;
+    border-radius: 3px;
+    width: 100%;
+    font-size: $textMed;
+    font-weight: $textBold;
+
+    &.btn:hover{
+        background-color: $blueHoverBtn;
+    }
+}
+
+
+.puntos{
+    width: 400px;
+    border-radius: 10px;
+    font-size: $textLg;
+    background: linear-gradient(
+      var(--back-colour8),
+      var(--back-colour1),
+      var(--back-colour8)
+    );
+    color: $whiteColor;
+    font-weight: $textBold;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.puntos:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.puntos-canje{
+    @extend .puntos;
+    background: linear-gradient(
+      var(--back-colour4),
+      var(--back-colour1),
+      var(--back-colour4)
+    );
+}
+
+.puntos-cambio{
+    @extend .puntos;
+    background: linear-gradient(
+      var(--back-colour7),
+      var(--back-colour1),
+      var(--back-colour7)
+    );
+}
+
+//mixins
+
+
+

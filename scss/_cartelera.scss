@@ -1,0 +1,26 @@
+.img-cartelera{
+    height: 480px;
+    width: 350px;
+    align-content: center;
+}
+
+.colgrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $greyColorF;
+}
+.colcenter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-pelicula{
+    background-color: $whiteColor;
+    font-weight: $textBold;
+    text-align: center;
+}
+
+

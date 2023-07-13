@@ -1,0 +1,188 @@
+.grid-entradas-row-column{
+    grid-template-columns: 29% 20% 2% 20% 29%;
+    grid-template-rows: 40px 25px 350px 400px;
+    grid-template-areas:
+    "dia dia none npeli pinfo"
+    "comp comp none tipo pinfo"
+    "comp comp none pelimg pdes"
+    "com com none trai trai";
+    gap: 1px;
+}
+
+.section-grid{
+    padding: 30px 0;
+}
+
+.grid-entradas{
+    display: grid;
+    width: 95%;
+    margin: auto;
+}
+
+#publicidad-entradas{
+    grid-area: com;
+}
+
+#tipo-peli{
+    grid-area: tipo;
+    background-color: $lightGrey;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#dias{
+    grid-area: dia;
+    background-color: $firstBlue;
+}
+
+#nomb-peli{
+    grid-area: npeli;
+    background-color: $darkBlue;
+}
+
+#peli-info{
+    grid-area: pinfo;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-bottom: solid 1px $darkOrange;
+    border-right: solid $blackColor 3px;  
+}
+
+#compra{
+    grid-area: comp;
+    border: solid 1px $bGGrey;
+    border-radius: 2px;
+    background-color: $lightLightBlue;
+    border-radius: 3px;
+}
+
+#peli-img{
+    grid-area: pelimg;
+    background-color: $whiteColor;
+}
+
+#peli-des{
+    grid-area: pdes;
+    background-color: $realWhite;
+    border-right: solid $blackColor 3px;  
+}
+
+#trailer{
+    grid-area: trai;
+    background-color: $realWhite;
+}
+
+.jc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ac{
+    align-content: space-between;
+}
+
+.ai{
+    align-items: center;
+}
+
+.btn-dias{
+    background-color: $realWhite;
+    border-radius: 2px;
+    border: solid 1px $blackColor;
+    width: 70px;
+    &.btn-dias:hover{
+        background-color: $blueHoverBtn;
+    }
+}
+
+
+.a-dias{
+    text-decoration: none;
+    color: $blackColor;
+    font-size: $textSm;
+    font-weight: $textBold;
+    &.a-dias:hover{
+        color: $whiteColor;
+    }
+}
+
+.nombre-peli{
+    background-color: $firstBlue;
+    border-radius: 5px;
+}
+
+.nom-peli{
+    color: $whiteColor;
+    font-weight: $textSemiBold;
+    font-size: $textLGg;
+    text-transform: uppercase;
+}
+
+.peli-infor{
+    font-weight: $textBold;
+    font-size: $textLg;
+    border: solid 1px $blackColor;
+    padding: 1px 5px;
+    background-color: $darkYellow;
+}
+
+.pelis-det{
+    line-height: $lineHeightM;
+    font-weight: $textBold;
+}
+
+.span-p{
+    font-size: $textLg;
+    font-weight: $textBold;
+}
+
+.portada-compra{
+    height: 350px;
+    width: 280px;
+    border-radius: 0px 0px 0px 3px;
+}
+
+.p-des{
+    font-size: $textMed;
+    margin: 20px;
+}
+
+.video-trailer{
+    height: 500px;
+    width: 680px;
+}
+
+.btn-large{
+    width: 700px;
+}
+
+.compra-entradas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.calculo{
+    background-color: $realWhite;
+    height: 40px;
+    width: 120px;
+    font-weight: $textBold;
+    font-size: $textLg;
+}
+
+.comprar-btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: $textLGg;
+    font-weight: $textBold;
+}
+
+.junio{
+    width: 300px;
+    height: 400px;
+}

@@ -1,0 +1,113 @@
+.parte-cc{
+    display: flex;
+}
+
+.wc{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.perfil-usuario{
+    font-weight: 700;
+    background-color: $lightLightBlue;
+    color: $blackColor;
+    text-align: center;
+}
+
+.img-div{
+    padding-right: 100px;
+}
+
+.contacto-cc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.p-cont{
+    font-size: $textMd;
+    text-transform: uppercase;
+    font-weight: $textBold;
+    background-color: $firstBlue;
+    width: 100%;
+    text-align: center;
+    color: $whiteColor;
+}
+
+.sc{
+    background-color: $greenColor;
+    color: $realWhite;
+}
+
+
+.foto-perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 700px;
+    border: solid 1px $darkBlue;
+
+}
+
+
+
+//titulo cineclub
+.ciclos-h{
+    font-size: $textLg;
+    background: linear-gradient(
+      var(--back-colour2),
+      var(--back-colour1),
+      var(--back-colour2)
+    );
+    color: $whiteColor;
+    font-weight: $textBold;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0 0 5px 5px;
+    text-transform: uppercase;
+}
+
+
+.tdn{
+    text-decoration: none;
+}
+
+
+
+.publicidades{
+    background-color: $lightBlue;
+    height: 800px;
+}
+
+.ciclos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+
+.perfil-cineclub{
+    padding-left: 40px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.parte-cc{
+    background-color: $lightLightBlue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: space-between;
+    padding-top: 30px;
+}
+
+
+.publi{
+    max-width: 800px;
+    max-height: 600px;
+}

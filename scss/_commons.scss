@@ -1,0 +1,138 @@
+//todo lo general
+
+
+*{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: $textNormal;
+}
+
+
+//nav
+
+.collapse {
+    justify-content: flex-end;
+}
+    .collapse li {
+        padding-right: 10px;
+    }
+
+.logo {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+    font-weight: $textSemiBold;
+    font-size: $textMd;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    color: $firstBlue;
+    font-weight: $textBold;
+    font-size: $textMd;
+    text-transform: uppercase;
+}
+
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: $lineHeightS;
+    padding-top: 1em;
+
+}
+
+.home{
+    text-transform: uppercase;
+    font-size: $textSSm;
+    color: $firstBlue;
+    letter-spacing: 0.4em;
+}
+
+//encabezados
+
+h1 {
+    font-size: $textXXlg;
+    background: linear-gradient(
+      var(--back-colour1),
+      var(--back-colour2),
+      var(--back-colour3)
+    );
+    color: $whiteColor;
+    font-weight: $textBold;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0 0 5px 5px;
+    text-transform: uppercase;
+}
+
+//encabezados segundos
+
+.segundos-titulos{
+    background: linear-gradient(
+      var(--back-colour1),
+      var(--back-colour2),
+      var(--back-colour3)
+    );
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 0 0 5px 5px;
+    text-transform: uppercase;
+    
+}
+
+//boton
+.btn {
+    background-color: $bGBot;
+    border: solid 1px $borderBot;
+    color: $blackColor;
+    border-radius: 3px;
+    width: 100%;
+    font-size: $textMed;
+    font-weight: $textBold;
+
+    &.btn:hover{
+        background-color: $blueHoverBtn;
+    }
+}
+
+//footer
+
+footer a{
+    color: $whiteColor;
+    padding: 10px;
+  }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    background-color: $blackColor;
+
+}
+  
+footer p{
+    font-size: $textSm;
+    color: $whiteColor;
+    padding-top: 20px;
+}
+
+
+
+
