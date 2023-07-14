@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: $greyColorF;
+    background-color: $lightLightBlue;
 }
 .colcenter{
     display: flex;
@@ -18,9 +18,12 @@
 }
 
 .info-pelicula{
-    background-color: $whiteColor;
+    background-color: $lightLightBlue;
     font-weight: $textBold;
     text-align: center;
 }
 
+.card-body{
+    background-color: $lightLightBlue;
+}
 

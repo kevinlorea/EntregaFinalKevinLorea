@@ -250,7 +250,6 @@ footer p {
   width: 250px;
 }
 
-
 .noticias,
 .noticias-camerica {
   border-left: solid rgb(16, 15, 15) 1px;
@@ -368,7 +367,7 @@ footer p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #dcd4ce;
+  background-color: rgba(236, 242, 247, 0.495);
 }
 
 .colcenter {
@@ -379,9 +378,13 @@ footer p {
 }
 
 .info-pelicula {
-  background-color: #dcd5d0;
+  background-color: rgba(236, 242, 247, 0.495);
   font-weight: 700;
   text-align: center;
+}
+
+.card-body {
+  background-color: rgba(236, 242, 247, 0.495);
 }
 
 .grid-entradas-row-column {
