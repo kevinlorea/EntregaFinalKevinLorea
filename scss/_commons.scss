@@ -133,8 +133,37 @@ footer p{
     padding-top: 20px;
 }
 
-.palomitas{
+.palomasimg{
+    background-image: url(../assets/palomitas4.webp);
     width: 100%;
-    height: 600px;
-    background-color: $blackColor;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.div-no{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center;
+    color: $whiteColor;
+    font-weight: $textBold;
+
+    h2{
+        font-size: $textLg;
+        text-transform: uppercase;       
+    }
+}
+
+.no-a{
+    font-size: $textXXlg;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $darkBlue;
+    &.no-a:hover{
+        color: $lightLightBlue;
+        cursor: pointer;
+    }
 }
