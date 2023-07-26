@@ -643,6 +643,7 @@ footer p {
 
 .img-div {
   padding-right: 100px;
+  margin-bottom: 100px;
 }
 
 .contacto-cc {
@@ -660,6 +661,7 @@ footer p {
   width: 100%;
   text-align: center;
   color: rgb(254, 254, 255);
+  margin-top: 5px;
 }
 
 .sc {
