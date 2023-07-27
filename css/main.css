@@ -36,32 +36,6 @@
   background: linear-gradient(var(--back-colour7), var(--back-colour1), var(--back-colour7));
 }
 
-h1 {
-  font-size: 2.4em;
-  background: linear-gradient(var(--back-colour1), var(--back-colour2), var(--back-colour3));
-  color: #dcd5d0;
-  font-weight: 700;
-  height: 70px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 20px;
-  border-radius: 0 0 5px 5px;
-  text-transform: uppercase;
-}
-
-.segundos-titulos {
-  background: linear-gradient(var(--back-colour1), var(--back-colour2), var(--back-colour3));
-  text-align: center;
-  color: whitesmoke;
-  font-weight: 700;
-  font-size: 1.4em;
-  padding-top: 10px;
-  height: 50px;
-  border-radius: 0 0 5px 5px;
-  text-transform: uppercase;
-}
-
 .portada-peli {
   width: 15vw;
   height: 38vh;
@@ -194,6 +168,7 @@ h1 {
   text-align: center;
   color: whitesmoke;
   font-weight: 700;
+  font-size: 1.4em;
   padding-top: 10px;
   height: 50px;
   border-radius: 0 0 5px 5px;

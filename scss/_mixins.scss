@@ -45,46 +45,6 @@
     );
 }
 
-//encabezados
-
-h1 {
-  font-size: $textXXlg;
-  background: linear-gradient(
-    var(--back-colour1),
-    var(--back-colour2),
-    var(--back-colour3)
-  );
-  color: $whiteColor;
-  font-weight: $textBold;
-  height: 70px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 20px;
-  border-radius: 0 0 5px 5px;
-  text-transform: uppercase;
-}
-
-//encabezados segundos
-
-
-.segundos-titulos{
-  background: linear-gradient(
-    var(--back-colour1),
-    var(--back-colour2),
-    var(--back-colour3)
-  );
-  text-align: center;
-  color: whitesmoke;
-  font-weight: $textBold;
-  font-size: $textLg;
-  padding-top: 10px;
-  height: 50px;
-  border-radius: 0 0 5px 5px;
-  text-transform: uppercase;
-  
-}
-
 
 //mixins
 
