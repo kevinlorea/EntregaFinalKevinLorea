@@ -54,48 +54,9 @@
     </nav>
     <main class="container-fluid">
         <!-- compra tu entrada -->
-        <h1>Compra tu entrada</h1>
+        <h1 class="tit-compra">Compra tu entrada</h1>
         <!-- grid -->
         <section class="grid-entradas grid-entradas-row-column row-cols-sm-12 section-grid">
-            <!-- start dias-->
-            <div class="dias-pelicula jc" id="dias">
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Hoy
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Mañana
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Sabado
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Domingo
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Lunes
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Martes
-                    </a>
-                </button>
-                <button class="btn-dias">
-                    <a class="a-dias" href="#">
-                        Miercoles
-                    </a>
-                </button>
-            </div>
-            <!-- ends dias -->
             <!-- start nombre pelicula -->
             <div class="nombre-peli jc" id="nomb-peli">
                 <div class="nom-peli">Hasta el punto</div>
@@ -119,6 +80,16 @@
             <!-- start compra de entradas-->
             <div class="compra-entradas" id="compra">
                 <select class="form-select form-select-lg" aria-label=".form-select-sm">
+                    <option selected>Elegí el día</option>
+                    <option value="1">Hoy</option>
+                    <option value="2">Mañana</option>
+                    <option value="3">Viernes</option>
+                    <option value="4">Sábado</option>
+                    <option value="5">Domingo</option>
+                    <option value="6">Lunes</option>
+                    <option value="6">Martes</option>
+                </select>
+                <select class="form-select form-select-lg" aria-label=".form-select-sm">
                     <option selected>Elegí tu película</option>
                     <option value="1">Hasta el punto</option>
                     <option value="2">Cruce de datos</option>
@@ -127,14 +98,14 @@
                     <option value="5">Símbolo de paz</option>
                     <option value="6">La muerte del ocelote</option>
                 </select>
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-lg" aria-label=".form-select-sm">
                     <option selected>Elegí el horario</option>
                     <option value="1">17:30</option>
                     <option value="2">21:45</option>
                     <option value="3">21:50</option>
                     <option value="4">23:45</option>
                 </select>
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-lg" aria-label=".form-select-sm">
                     <option selected>Elegí el sector de la sala</option>
                     <option value="1">A</option>
                     <option value="2">B</option>
@@ -142,7 +113,7 @@
                     <option value="4">D</option>
                     <option value="5">F</option>
                 </select>   
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-lg" aria-label=".form-select-sm">
                     <option selected>Cantidad de entradas</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -168,7 +139,7 @@
             <div class="peli-desc" id="peli-des">
                 <div class="jc">
                     <p class="p-des">
-                        Esta película, del director Jason Burrh, protagonizada por Cristian Ibagaza y Florence Mach nos hace recorrer las vigas de relaciones truncadas por el azar en el oriente europeo de la década de 1980. Fotografía y diálogos destacados y unas actuaciones que son dignas de premiación. La película nos plantea una pregunta: ¿cuántas veces somos nosotros los que decidimos?
+                        Esta película, del director Jason Burrh, protagonizada por Cristian Ibagaza y Florence Mach nos hace recorrer las vigas de relaciones truncadas por el azar en el oriente europeo de la década de 1980. Fotografía y diálogos destacados y unas actuaciones que son dignas de premiación.
                     </p>
                 </div>
             </div>
@@ -177,15 +148,15 @@
             <div class="publicidad-entradas" id="publicidad-entradas">
                 <div class="jc">
                     <a href="./cineclub.html" alt="publicidad junio">
-                        <img class="junio" src="../assets/publi2webp.webp">
+                        <img class="junio" src="../assets/publi2webp.webp" alt="publicidad de cine club">
                     </a>
                 </div>
             </div>
             <!-- ends comentarios -->
             <!-- start trailer youtube -->
-            <div class="trailer-div jc" id="trailer">
+            <div class="trailer-div" id="trailer">
                 <div class="trailer1">
-                    <iframe width="680" height="360" src="https://www.youtube.com/embed/m6jfZa00vkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="vif" width="680" height="360" src="https://www.youtube.com/embed/m6jfZa00vkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- ends trailer youtube-->

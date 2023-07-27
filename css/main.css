@@ -23,7 +23,7 @@
 }
 
 .puntos, .puntos-cambio, .puntos-canje {
-  width: 400px;
+  width: 250px;
   border-radius: 10px;
   font-size: 1.4em;
   background: linear-gradient(var(--back-colour8), var(--back-colour1), var(--back-colour8));
@@ -282,9 +282,9 @@ footer p {
 
 .grid-template-column-row {
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50px 300px 300px 350px;
+  grid-template-rows: 50px 300px 300px 250px;
   grid-template-areas: "proxi noti" "pelis noticias" "pelis noticias" "pelis noti-cine";
-  gap: 0 10px;
+  gap: 10px;
 }
 
 .container-pelis {
@@ -292,7 +292,7 @@ footer p {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(239, 239, 239, 0.6392156863);
+  background-color: rgb(254, 254, 255);
 }
 
 .fig-peli {
@@ -305,8 +305,8 @@ footer p {
 }
 
 .portada-peli {
-  height: 350px;
-  width: 250px;
+  width: 15vw;
+  height: 32vh;
 }
 
 .noticias,
@@ -336,13 +336,14 @@ footer p {
 .f2 {
   display: flex;
   justify-content: space-between;
+  background-color: red;
   border-bottom: solid 1px #050505;
   padding-bottom: 10px;
 }
 
 .publ-cine {
-  width: 680px;
-  height: 320px;
+  width: 40vw;
+  height: 30vh;
   object-fit: fill;
   border-radius: 0 0 5px 5px;
 }
@@ -410,16 +411,24 @@ footer p {
 
 .noticias-camerica {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: rgba(236, 239, 243, 0.607);
+}
+
+.divpu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(236, 239, 243, 0.607);
+  align-items: center;
 }
 
 .img-cartelera {
   height: 480px;
   width: 350px;
   align-content: center;
+  object-fit: cover;
 }
 
 .colgrid {
@@ -449,7 +458,7 @@ footer p {
 .grid-entradas-row-column {
   grid-template-columns: 29% 20% 2% 20% 29%;
   grid-template-rows: 40px 25px 350px 400px;
-  grid-template-areas: "dia dia none npeli pinfo" "comp comp none tipo pinfo" "comp comp none pelimg pdes" "com com none trai trai";
+  grid-template-areas: "comp comp none npeli pinfo" "comp comp none tipo pinfo" "comp comp none pelimg pdes" "com com none trai trai";
   gap: 1px;
 }
 
@@ -472,11 +481,6 @@ footer p {
   background-color: rgb(222, 218, 218);
   text-transform: uppercase;
   border-radius: 5px;
-}
-
-#dias {
-  grid-area: dia;
-  background-color: #466183;
 }
 
 #nomb-peli {
@@ -532,26 +536,6 @@ footer p {
   align-items: center;
 }
 
-.btn-dias {
-  background-color: rgb(254, 254, 255);
-  border-radius: 2px;
-  border: solid 1px #050505;
-  width: 70px;
-}
-.btn-dias.btn-dias:hover {
-  background-color: rgba(47, 64, 217, 0.326);
-}
-
-.a-dias {
-  text-decoration: none;
-  color: #050505;
-  font-size: 0.8em;
-  font-weight: 700;
-}
-.a-dias.a-dias:hover {
-  color: #dcd5d0;
-}
-
 .nombre-peli {
   background-color: #466183;
   border-radius: 5px;
@@ -560,7 +544,7 @@ footer p {
 .nom-peli {
   color: #dcd5d0;
   font-weight: 400;
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
@@ -583,8 +567,9 @@ footer p {
 }
 
 .portada-compra {
-  height: 350px;
-  width: 280px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 0px 0px 0px 3px;
 }
 
@@ -612,25 +597,25 @@ footer p {
   font-size: 1.4em;
 }
 
-.comprar-btn {
-  width: 120px;
-  height: 50px;
-  border-radius: 6px;
-  font-size: 1.6em;
-  font-weight: 700;
-}
-
 .junio {
   width: 300px;
   height: 400px;
 }
 
+.vif {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
 .parte-cc {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .wc {
-  width: 100%;
+  width: 33%;
   margin-top: 25px;
 }
 
@@ -642,8 +627,10 @@ footer p {
 }
 
 .img-div {
-  padding-right: 100px;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
 }
 
 .contacto-cc {
@@ -651,6 +638,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+  width: 33%;
 }
 
 .p-cont {
@@ -658,7 +646,7 @@ footer p {
   text-transform: uppercase;
   font-weight: 700;
   background-color: #466183;
-  width: 100%;
+  width: 70%;
   text-align: center;
   color: rgb(254, 254, 255);
   margin-top: 5px;
@@ -679,13 +667,13 @@ footer p {
 .ciclos-h {
   font-size: 1.4em;
   background: linear-gradient(var(--back-colour2), var(--back-colour1), var(--back-colour2));
-  color: #dcd5d0;
+  color: rgb(254, 254, 255);
   font-weight: 700;
-  height: 70px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   border-radius: 0 0 5px 5px;
   text-transform: uppercase;
 }
@@ -696,73 +684,70 @@ footer p {
 
 .publicidades {
   background-color: rgba(48, 86, 255, 0.813);
-  height: 800px;
 }
 
 .ciclos {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 50px;
+  padding: 10px 0;
 }
 
 .perfil-cineclub {
-  padding-left: 40px;
-  padding-bottom: 200px;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
 }
 
 .parte-cc {
   background-color: rgba(236, 242, 247, 0.495);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: start;
-  align-content: space-between;
   padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .publi {
-  max-width: 800px;
-  max-height: 600px;
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .ingreso {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   height: 700px;
   background-color: rgba(236, 242, 247, 0.495);
 }
 
 .crear-cuenta {
   background-color: rgb(222, 218, 218);
-  height: 350px;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
   border-radius: 10px;
   border: solid 1px #050505;
+  max-width: 300px;
 }
 
 .ingreso-usuario {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  width: 500px;
   border-radius: 5px;
-  height: 300px;
   justify-content: space-between;
+  background-color: #dcd5d0;
+  text-align: center;
+  padding: 10px;
 }
 
 .for1 {
   height: 40px;
-  width: 300px;
+  width: 250px;
   margin: 4px auto;
 }
 
 .for2 {
   height: 40px;
-  width: 300px;
+  width: 250px;
   color: #dcd5d0;
   background-color: #466183;
   font-size: 1.4em;
@@ -791,6 +776,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #dcd5d0;
 }
 
 .cuenta-usuario {
@@ -798,9 +784,6 @@ footer p {
 }
 
 .p-ingreso {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -820,61 +803,20 @@ footer p {
 }
 
 .publi-perfil {
-  flex-basis: 45%;
   padding-bottom: 5px;
-  margin-right: 15px;
-  display: flex;
-  justify-content: center;
+  margin-left: 75px;
+}
+.publi-perfil img {
+  max-height: 650px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
-.img-perfil {
-  height: 600px;
-  width: 400px;
-}
-
-@media (max-width: 600px) {
-  .grid-template-column-row {
-    grid-template-columns: 100%;
-    grid-template-rows: 50px repeat(4, 300px) 50px repeat(2, 200px) repeat(2, 200px);
-    grid-template-areas: "proxi" "pelis" "pelis" "pelis" "pelis" "noti" "noticias" "noticias" "noticias" "noticias" "noti-cine" "noti-cine";
-  }
-}
-@media (max-width: 600px) {
-  .grid-entradas-row-column {
-    grid-template-columns: 100%;
-    grid-template-rows: 50px 300px 50px 30px 300px 300px;
-    grid-template-areas: "dia" "comp" "npeli" "pinfo" "pdes" "trai";
-  }
-}
-.img-noticias {
-  width: 250px;
-  height: 160px;
-  padding-top: 5px;
-}
-
-.portada-peli {
-  height: 250px;
-  width: 200px;
-}
-
-.img-noticias-cine {
-  width: 250px;
-  height: 300px;
-}
-
-.segundos-titulos {
-  font-size: 1.4em;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .grid-template-column-row {
     grid-template-columns: 100%;
     grid-template-rows: 50px repeat(4, 400px) 50px repeat(2, 270px) repeat(2, 200px);
-    grid-template-areas: "proxi" "pelis" "pelis" "pelis" "pelis" "noti" "noticias" "noticias" "noticias" "noticias" "noti-cine" "noti-cine";
+    grid-template-areas: "proxi" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "pelis" "noti" "noticias" "noticias" "noticias" "noticias" "noti-cine" "noti-cine";
   }
   .img-noticias {
     width: 350px;
@@ -894,6 +836,85 @@ h1 {
   }
   h1 {
     font-size: 2em;
+  }
+  .f1,
+  .f2 {
+    flex-direction: column;
+  }
+  .f1 img,
+  .f2 img {
+    width: 100%;
+  }
+  .publ-cine {
+    width: 90%;
+    height: 90%;
+  }
+  .noticias-camerica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .parte-cc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ban-cineclub {
+    font-size: 1.6em;
+  }
+  .ciclos {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    align-content: start;
+  }
+  .ciclos img {
+    width: 250px;
+    height: 370px;
+    margin: 10px 0px;
+    object-fit: cover;
+  }
+  .publicidades {
+    margin-top: 30px;
+  }
+  .wc {
+    width: 90%;
+  }
+  .p-cont {
+    width: 90%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .ingreso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 242, 247, 0.495);
+    height: 900px;
+  }
+  .publi-perfil {
+    padding-bottom: 5px;
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+  .publi-perfil img {
+    max-height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .grid-entradas-row-column {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 500px 20px 50px 40px 400px 100px;
+    grid-template-areas: "comp" "comp" "none" "npeli" "tipo" "pelimg" "pinfo" "pdes" "trai" "com";
+  }
+  .tit-compra {
+    font-size: 1.4em;
   }
 }
 

@@ -1,9 +1,11 @@
 .parte-cc{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .wc{
-    width: 100%;
+    width: 33%;
     margin-top: 25px;
 }
 
@@ -15,8 +17,10 @@
 }
 
 .img-div{
-    padding-right: 100px;
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
 }
 
 .contacto-cc{
@@ -24,6 +28,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    width: 33%;
 }
 
 
@@ -32,7 +37,7 @@
     text-transform: uppercase;
     font-weight: $textBold;
     background-color: $firstBlue;
-    width: 100%;
+    width: 70%;
     text-align: center;
     color: $realWhite;
     margin-top: 5px;
@@ -53,7 +58,6 @@
 }
 
 
-
 //titulo cineclub
 .ciclos-h{
     font-size: $textLg;
@@ -62,13 +66,13 @@
       var(--back-colour1),
       var(--back-colour2)
     );
-    color: $whiteColor;
+    color: $realWhite;
     font-weight: $textBold;
-    height: 70px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
     border-radius: 0 0 5px 5px;
     text-transform: uppercase;
 }
@@ -79,37 +83,36 @@
 }
 
 
-
 .publicidades{
     background-color: $lightBlue;
-    height: 800px;
 }
 
 .ciclos{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 50px;
+    padding: 10px 0;
 }
 
 
 .perfil-cineclub{
-    padding-left: 40px;
-    padding-bottom: 200px;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    
 }
 
 .parte-cc{
     background-color: $lightLightBlue;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: start;
-    align-content: space-between;
     padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 
 .publi{
-    max-width: 800px;
-    max-height: 600px;
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
 }

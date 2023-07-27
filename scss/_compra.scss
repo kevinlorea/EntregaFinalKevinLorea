@@ -2,7 +2,7 @@
     grid-template-columns: 29% 20% 2% 20% 29%;
     grid-template-rows: 40px 25px 350px 400px;
     grid-template-areas:
-    "dia dia none npeli pinfo"
+    "comp comp none npeli pinfo"
     "comp comp none tipo pinfo"
     "comp comp none pelimg pdes"
     "com com none trai trai";
@@ -28,11 +28,6 @@
     background-color: $lightGrey;
     text-transform: uppercase;
     border-radius: 5px;
-}
-
-#dias{
-    grid-area: dia;
-    background-color: $firstBlue;
 }
 
 #nomb-peli{
@@ -88,26 +83,6 @@
     align-items: center;
 }
 
-.btn-dias{
-    background-color: $realWhite;
-    border-radius: 2px;
-    border: solid 1px $blackColor;
-    width: 70px;
-    &.btn-dias:hover{
-        background-color: $blueHoverBtn;
-    }
-}
-
-
-.a-dias{
-    text-decoration: none;
-    color: $blackColor;
-    font-size: $textSm;
-    font-weight: $textBold;
-    &.a-dias:hover{
-        color: $whiteColor;
-    }
-}
 
 .nombre-peli{
     background-color: $firstBlue;
@@ -117,7 +92,7 @@
 .nom-peli{
     color: $whiteColor;
     font-weight: $textSemiBold;
-    font-size: $textLGg;
+    font-size: $textLg;
     text-transform: uppercase;
 }
 
@@ -140,8 +115,9 @@
 }
 
 .portada-compra{
-    height: 350px;
-    width: 280px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 0px 0px 0px 3px;
 }
 
@@ -169,15 +145,16 @@
     font-size: $textLg;
 }
 
-.comprar-btn{
-    width: 120px;
-    height: 50px;
-    border-radius: 6px;
-    font-size: $textLGg;
-    font-weight: $textBold;
-}
+
 
 .junio{
     width: 300px;
     height: 400px;
+}
+
+
+.vif{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }

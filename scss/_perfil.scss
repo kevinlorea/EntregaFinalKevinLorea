@@ -1,41 +1,38 @@
 .ingreso{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     height: 700px;
     background-color: $lightLightBlue;
-
 }
 
 .crear-cuenta{
     background-color: $lightGrey;
-    height: 350px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
     border: solid 1px $blackColor;
+    max-width: 300px;
 }
 
 .ingreso-usuario{
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    width: 500px;
     border-radius: 5px;
-    height: 300px;
     justify-content: space-between;
+    background-color: $whiteColor;
+    text-align: center;
+    padding: 10px;
 }
 
 .for1{
     height: 40px;
-    width: 300px;
+    width: 250px;
     margin: 4px auto;
 }
 
 .for2{
     height: 40px;
-    width: 300px;
+    width: 250px;
     color: $whiteColor;
     background-color: $firstBlue;
     font-size: $textLg;
@@ -44,8 +41,6 @@
         background-color: $blueHoverBtn;
     }
 }
-
-
 
 .a-cuenta{
     font-size: 1em;
@@ -66,6 +61,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: $whiteColor;
+
 }
 
 .cuenta-usuario{
@@ -73,9 +70,6 @@
 }
 
 .p-ingreso{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     font-size: $textXlg;
     font-weight: $textBold;
     text-transform: uppercase;
@@ -87,7 +81,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    color:$firstBlue;
+    color: $firstBlue;
     font-weight: $textBold;
     font-size: $textMed;
     margin-top: 20px;
@@ -95,15 +89,13 @@
 }
 
 .publi-perfil{
-    flex-basis: 45%;
     padding-bottom: 5px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: center;
+    margin-left: 75px;
+    
+    img{
+        max-height: 650px;
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 
-.img-perfil{
-    height: 600px;
-    width: 400px;
-
-}
