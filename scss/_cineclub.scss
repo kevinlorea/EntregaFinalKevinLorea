@@ -4,13 +4,9 @@
     justify-content: space-between;
 }
 
-.wc{
-    width: 33%;
-    margin-top: 25px;
-}
 
 .perfil-usuario{
-    font-weight: 700;
+    font-weight: $textBold;
     background-color: $lightLightBlue;
     color: $blackColor;
     text-align: center;
@@ -59,24 +55,6 @@
 
 
 //titulo cineclub
-.ciclos-h{
-    font-size: $textLg;
-    background: linear-gradient(
-      var(--back-colour2),
-      var(--back-colour1),
-      var(--back-colour2)
-    );
-    color: $realWhite;
-    font-weight: $textBold;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 15px;
-    border-radius: 0 0 5px 5px;
-    text-transform: uppercase;
-}
-
 
 .tdn{
     text-decoration: none;
@@ -111,8 +89,3 @@
 }
 
 
-.publi{
-    width: 400px;
-    height: 600px;
-    object-fit: cover;
-}

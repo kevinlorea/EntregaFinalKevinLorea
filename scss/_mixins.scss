@@ -1,17 +1,4 @@
 //extends
-.btn {
-    background-color: $bGBot;
-    border: solid 1px $borderBot;
-    color: $blackColor;
-    border-radius: 3px;
-    width: 100%;
-    font-size: $textMed;
-    font-weight: $textBold;
-
-    &.btn:hover{
-        background-color: $blueHoverBtn;
-    }
-}
 
 
 .puntos{
@@ -31,12 +18,14 @@
     text-align: center;
     text-transform: uppercase;
     justify-content: center;
+    
+    &.puntos:hover{
+      transform: scale(1.2);
+      transition: all 1s;
+      }
+
 }
 
-.puntos:hover{
-    transform: scale(1.2);
-    transition: all 1s;
-}
 
 .puntos-canje{
     @extend .puntos;
@@ -78,6 +67,7 @@ h1 {
 
 //encabezados segundos
 
+
 .segundos-titulos{
   background: linear-gradient(
     var(--back-colour1),
@@ -86,7 +76,8 @@ h1 {
   );
   text-align: center;
   color: whitesmoke;
-  font-weight: 700;
+  font-weight: $textBold;
+  font-size: $textLg;
   padding-top: 10px;
   height: 50px;
   border-radius: 0 0 5px 5px;
@@ -95,8 +86,65 @@ h1 {
 }
 
 
-
 //mixins
 
+@mixin images($width,$height,$object){
+    width: $width;
+    height: $height;
+    object-fit: $object;
+  
+}
 
 
+//en inicio
+.portada-peli{
+  @include images(15vw,38vh,cover)
+ }
+
+ .publ-cine{
+  @include images(50vw,50vh,cover)
+}
+
+.img-noticias-large{
+  @include images(30vw, 30vh, cover)
+}
+
+
+//en cartelera
+
+.img-cartelera{
+  @include images(350px, 480px, cover)
+}
+
+
+//en compra/entradas
+
+.portada-compra{
+  @include images(100%,100%, cover)
+}
+
+
+.vif{
+  @include images(100%,400px,cover)
+}
+
+.portada-compra{
+  @include images(100%,100%,cover)
+  }
+
+
+//en cine club
+
+.foto-perfil{
+  @include images(300px,300px,cover)
+  }
+  
+.publi{
+  @include images(400px,600px,cover)
+}
+
+//en mi perfil
+
+.img-perfil{
+    @include images(100%,650px,cover)
+}

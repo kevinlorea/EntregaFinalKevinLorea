@@ -9,19 +9,6 @@
   --back-colour8: rgb(116, 215, 103);
 }
 
-.btn {
-  background-color: rgba(152, 151, 215, 0.3176470588);
-  border: solid 1px rgb(16, 15, 15);
-  color: #050505;
-  border-radius: 3px;
-  width: 100%;
-  font-size: 1.2em;
-  font-weight: 700;
-}
-.btn.btn:hover {
-  background-color: rgba(47, 64, 217, 0.326);
-}
-
 .puntos, .puntos-cambio, .puntos-canje {
   width: 250px;
   border-radius: 10px;
@@ -36,8 +23,7 @@
   text-transform: uppercase;
   justify-content: center;
 }
-
-.puntos:hover, .puntos-cambio:hover, .puntos-canje:hover {
+.puntos.puntos:hover, .puntos-cambio:hover, .puntos-canje:hover {
   transform: scale(1.2);
   transition: all 1s;
 }
@@ -69,10 +55,71 @@ h1 {
   text-align: center;
   color: whitesmoke;
   font-weight: 700;
+  font-size: 1.4em;
   padding-top: 10px;
   height: 50px;
   border-radius: 0 0 5px 5px;
   text-transform: uppercase;
+}
+
+.portada-peli {
+  width: 15vw;
+  height: 38vh;
+  object-fit: cover;
+}
+
+.publ-cine {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.img-noticias-large {
+  width: 30vw;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.img-cartelera {
+  width: 350px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.portada-compra {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vif {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.portada-compra {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.publi {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.img-perfil {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
 }
 
 * {
@@ -274,10 +321,6 @@ footer p {
   grid-area: noticias;
 }
 
-#noticias-cine {
-  grid-area: noti-cine;
-}
-
 .grid-template-column-row {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50px 250px 250px 300px;
@@ -295,29 +338,17 @@ footer p {
 
 .fig-peli {
   text-align: center;
-  background-color: rgba(24, 26, 37, 0.897);
+  background-color: #050505;
   font-weight: 400;
   border-radius: 0 0 5px 5px;
-  color: whitesmoke;
+  color: rgb(254, 254, 255);
   text-transform: uppercase;
-}
-
-.portada-peli {
-  width: 15vw;
-  height: 38vh;
-  object-fit: cover;
-}
-
-.noticias,
-.noticias-camerica {
-  border-left: solid rgb(16, 15, 15) 1px;
 }
 
 .container-noticias {
   display: flex;
   align-items: center;
   flex-direction: row;
-  background-color: #dcd5d0;
 }
 
 .div-noticia-nacional {
@@ -339,9 +370,6 @@ footer p {
 }
 
 .publ-cine {
-  width: 50vw;
-  height: 50vh;
-  object-fit: cover;
   border-radius: 0 0 5px 5px;
   padding: 20px 40px;
 }
@@ -395,12 +423,6 @@ footer p {
 }
 .fig-noticia.fig-noticia:hover {
   background-color: #dcd4ce;
-}
-
-.img-noticias-large {
-  height: 30vh;
-  width: 25vw;
-  object-fit: cover;
 }
 
 .info-text {
@@ -593,21 +615,10 @@ footer p {
   height: 400px;
 }
 
-.vif {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
 .parte-cc {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.wc {
-  width: 33%;
-  margin-top: 25px;
 }
 
 .perfil-usuario {
@@ -655,20 +666,6 @@ footer p {
   border: solid 1px rgba(18, 19, 28, 0.9019607843);
 }
 
-.ciclos-h {
-  font-size: 1.4em;
-  background: linear-gradient(var(--back-colour2), var(--back-colour1), var(--back-colour2));
-  color: rgb(254, 254, 255);
-  font-weight: 700;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 15px;
-  border-radius: 0 0 5px 5px;
-  text-transform: uppercase;
-}
-
 .tdn {
   text-decoration: none;
 }
@@ -696,12 +693,6 @@ footer p {
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
-
-.publi {
-  width: 400px;
-  height: 600px;
-  object-fit: cover;
 }
 
 .ingreso {
@@ -797,11 +788,6 @@ footer p {
   padding-bottom: 5px;
   margin-left: 75px;
 }
-.publi-perfil img {
-  max-height: 650px;
-  max-width: 100%;
-  object-fit: cover;
-}
 
 @media (min-width: 320px) and (max-width: 600px) {
   .grid-template-column-row {
@@ -870,9 +856,6 @@ footer p {
   }
   .publicidades {
     margin-top: 30px;
-  }
-  .wc {
-    width: 90%;
   }
   .p-cont {
     width: 90%;

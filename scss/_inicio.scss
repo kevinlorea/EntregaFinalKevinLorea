@@ -55,9 +55,7 @@
 #noticias{
     grid-area: noticias;
 }
-#noticias-cine{
-    grid-area: noti-cine;
-}
+
 
 .grid-template-column-row{
     grid-template-columns: 50% 50%;
@@ -84,34 +82,21 @@
 
 .fig-peli{
     text-align: center;
-    background-color: rgba(24, 26, 37, 0.897);
+    background-color: $blackColor;
     font-weight: 400;
     border-radius: 0 0 5px 5px;
-    color: whitesmoke;
+    color: $realWhite;
     text-transform: uppercase;
 }
 
-.portada-peli{
-    width: 15vw;
-    height: 38vh;
-    object-fit: cover;
-}
-
-
 //noticias
 
-// noticias cine */
-
-.noticias,
-.noticias-camerica{
-    border-left: solid $borderBot 1px;
-}
+// noticias cine 
 
 .container-noticias{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: $whiteColor;
 }
 
 
@@ -136,9 +121,6 @@
 }
 
 .publ-cine{
-    width: 50vw;
-    height: 50vh;
-    object-fit: cover;
     border-radius: 0 0 5px 5px;
     padding: 20px 40px;
 
@@ -198,18 +180,10 @@
 }
 
 
-.img-noticias-large{
-    height: 30vh;
-    width: 25vw;
-    object-fit: cover;
-}
-
 .info-text{
     line-height: $lineHeightL;
 }
 
-
-// noticias internacional 
 
 .noticias-camerica{
     display: flex;
