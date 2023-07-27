@@ -220,8 +220,6 @@ footer p {
 }
 
 .carousel-item img {
-  height: 650px;
-  width: 100%;
   object-fit: cover;
 }
 
@@ -282,8 +280,8 @@ footer p {
 
 .grid-template-column-row {
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50px 300px 300px 250px;
-  grid-template-areas: "proxi noti" "pelis noticias" "pelis noticias" "pelis noti-cine";
+  grid-template-rows: 50px 250px 250px 300px;
+  grid-template-areas: "proxi noti" "pelis noticias" "pelis noticias" "pelis noticias" "pelis noticias";
   gap: 10px;
 }
 
@@ -306,7 +304,8 @@ footer p {
 
 .portada-peli {
   width: 15vw;
-  height: 32vh;
+  height: 38vh;
+  object-fit: cover;
 }
 
 .noticias,
@@ -336,16 +335,15 @@ footer p {
 .f2 {
   display: flex;
   justify-content: space-between;
-  background-color: red;
   border-bottom: solid 1px #050505;
-  padding-bottom: 10px;
 }
 
 .publ-cine {
-  width: 40vw;
-  height: 30vh;
-  object-fit: fill;
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
   border-radius: 0 0 5px 5px;
+  padding: 20px 40px;
 }
 
 .div-p-nacional {
@@ -411,15 +409,8 @@ footer p {
 
 .noticias-camerica {
   display: flex;
-  align-items: start;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: rgba(236, 239, 243, 0.607);
-}
-
-.divpu {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   background-color: rgba(236, 239, 243, 0.607);
   align-items: center;
 }
