@@ -25,7 +25,7 @@ El wireframe del index
 vs.
 
 el index
-![imagen primer pre entrega](https://example.com/images/logo.png)
+![imagen primer pre entrega](https://example.com/images/logo.png](https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer.jpg)
 
 
 
