@@ -20,7 +20,7 @@ Trabajo para un estudio jurídico cumpliendo varias funciones, muchas de escrito
 Llegué al curso sin conocimiento alguno en desarrollo pero mucho entusiasmo, creo que se puede ver en la comparación entre los Wireframes y cómo lucía mi primer pre entrega. Con muy pocas herramientas y bastantes nervios ésto fue lo más parecido a los Wireframes que pude entregar:
 
 El wireframe del index
-![imagen wireframe](https://example.com/images/logo.png)
+![imagen wireframe][https://example.com/images/logo.png](https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer.jpg)
 
 vs.
 
