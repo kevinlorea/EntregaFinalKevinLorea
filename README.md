@@ -20,7 +20,7 @@ Trabajo para un estudio jurídico cumpliendo varias funciones, muchas de escrito
 Llegué al curso sin conocimiento alguno en desarrollo pero mucho entusiasmo, creo que se puede ver en la comparación entre los Wireframes y cómo lucía mi primer pre entrega. Con muy pocas herramientas y bastantes nervios ésto fue lo más parecido a los Wireframes que pude entregar:
 
 El wireframe del index
-![Texto alternativo]([[URL o ruta de la imagen](https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg)](https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg))
+![Texto alternativo]([[(https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg](https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg)(https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg))
 
 vs.
 
