@@ -46,6 +46,27 @@
 }
 
 
+.fig-peli{
+    text-align: center;
+    background-color: $blackColor;
+    font-weight: $textNormal;
+    color: $whiteColor;
+    text-transform: uppercase;
+    font-size: $textSm;
+    
+}
+
+.fig-pelicula{
+    @extend .fig-peli;
+    border-radius: 0 0 5px 5px;
+    font-weight: $textBold;
+    font-size: $textMd;
+    background-color: $darkBlue;
+    color: $realWhite;
+}
+
+
+
 //mixins
 
 @mixin images($width,$height,$object){

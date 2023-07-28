@@ -36,6 +36,23 @@
   background: linear-gradient(var(--back-colour7), var(--back-colour1), var(--back-colour7));
 }
 
+.fig-peli, .fig-pelicula {
+  text-align: center;
+  background-color: #050505;
+  font-weight: 200;
+  color: #dcd5d0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.fig-pelicula {
+  border-radius: 0 0 5px 5px;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: rgba(18, 19, 28, 0.9019607843);
+  color: rgb(254, 254, 255);
+}
+
 .portada-peli {
   width: 15vw;
   height: 38vh;
@@ -188,11 +205,6 @@ h1 {
   background-color: rgba(47, 64, 217, 0.326);
 }
 
-footer a {
-  color: #dcd5d0;
-  padding: 10px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -200,11 +212,14 @@ footer {
   padding-top: 60px;
   background-color: #050505;
 }
-
 footer p {
   font-size: 0.8em;
   color: #dcd5d0;
   padding-top: 20px;
+}
+footer a {
+  color: #dcd5d0;
+  padding: 10px;
 }
 
 .palomasimg {
@@ -309,15 +324,6 @@ footer p {
   align-items: center;
   flex-wrap: wrap;
   background-color: rgb(254, 254, 255);
-}
-
-.fig-peli {
-  text-align: center;
-  background-color: #050505;
-  font-weight: 400;
-  border-radius: 0 0 5px 5px;
-  color: rgb(254, 254, 255);
-  text-transform: uppercase;
 }
 
 .container-noticias {
@@ -805,6 +811,15 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .f1,
+  .f2 {
+    display: block;
+  }
+  .img-noticias-large {
+    width: 100%;
   }
 }
 @media (min-width: 320px) and (max-width: 600px) {

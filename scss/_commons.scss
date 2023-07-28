@@ -116,10 +116,6 @@ h1 {
 
 //footer
 
-footer a{
-    color: $whiteColor;
-    padding: 10px;
-  }
 
 footer{
     display: flex;
@@ -127,14 +123,19 @@ footer{
     align-items: center;
     padding-top: 60px;
     background-color: $blackColor;
+    & p{
+        font-size: $textSm;
+        color: $whiteColor;
+        padding-top: 20px;
+    }
 
+    & a{
+        color: $whiteColor;
+        padding: 10px;
+      }
 }
   
-footer p{
-    font-size: $textSm;
-    color: $whiteColor;
-    padding-top: 20px;
-}
+
 
 .palomasimg{
     background-image: url(../assets/palomitas4.webp);

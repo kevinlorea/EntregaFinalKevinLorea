@@ -75,6 +75,20 @@
 }
 
 
+@media (min-width: 1024px) and (max-width: 1200px){
+    
+    .f1,
+    .f2{
+        display: block;
+    }
+
+    .img-noticias-large{
+        width: 100%;
+    }
+
+}
+
+
 //cineclub
 
 @media (min-width: 320px) and (max-width: 600px){
