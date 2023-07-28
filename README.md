@@ -26,6 +26,7 @@ https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/principal-desk
 vs.
 
 el index
+
 https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer.jpg
 https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer1.jpg
 
@@ -44,4 +45,11 @@ Lo que viene es seguir dando pasos. Estoy haciendo el curso de Javascript tambi√
 Muchas gracias profesora y tutores/as por el tiempo y las ganas. Hicieron un trabajo excelente!
 
 #### Links:
+
+https://github.com/kevinlorea/PreEntrega3Lorea.git
+//////
+https://kevinlorea.github.io/PreEntrega3Lorea/
+/////
+https://proyecto-final-kevin-lorea.netlify.app/
+
 
