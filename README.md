@@ -47,9 +47,12 @@ Muchas gracias profesora y tutores/as por el tiempo y las ganas. Hicieron un tra
 #### Links:
 
 https://github.com/kevinlorea/PreEntrega3Lorea.git
+
 //////
 https://kevinlorea.github.io/PreEntrega3Lorea/
+
 /////
 https://proyecto-final-kevin-lorea.netlify.app/
+
 
 
