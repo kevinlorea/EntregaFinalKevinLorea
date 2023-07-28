@@ -20,13 +20,14 @@ Trabajo para un estudio jurídico cumpliendo varias funciones, muchas de escrito
 Llegué al curso sin conocimiento alguno en desarrollo pero mucho entusiasmo, creo que se puede ver en la comparación entre los Wireframes y cómo lucía mi primer pre entrega. Con muy pocas herramientas y bastantes nervios ésto fue lo más parecido a los Wireframes que pude entregar:
 
 El wireframe del index
-![Texto alternativo]([[(https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg](https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg)(https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg))
+
+https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/principal-desktop.jpg
 
 vs.
 
 el index
-![imagen primer pre entrega]([https://example.com/images/logo.png](https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer.jpg](https://raw.githubusercontent.com/kevinlorea/PreEntrega3Lorea/master/assets/primer.jpg))
-
+https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer.jpg
+https://github.com/kevinlorea/PreEntrega3Lorea/blob/master/assets/primer1.jpg
 
 
 Para la segunda pre entrega ya nos habíamos cargado la caja con algunas herramientas y pude empezar a acomodar más a mi gusto el sitio. Tardé unas cuántas noches en aprender a posicionar con box model y flexbox (sigo aprendiendo), pero el proyecto iba tomando forma. 
